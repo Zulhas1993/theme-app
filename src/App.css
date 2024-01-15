@@ -1,0 +1,33 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.suggestions-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.theme-form-section {
+  flex: 1;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  height: 300px;
+  width: 450px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
